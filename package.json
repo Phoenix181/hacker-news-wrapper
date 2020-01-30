@@ -1,0 +1,25 @@
+{
+  "name": "hacker-news-wrapper",
+  "version": "1.0.0",
+  "description": "A wrapper around the YCombinator's hacker news wrapper for my projects using Hacker News API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoenix181/hacker-news-wrapper.git"
+  },
+  "keywords": [
+    "hacker-news",
+    "api",
+    "api-wrapper",
+    "news"
+  ],
+  "author": "Phoenix181",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phoenix181/hacker-news-wrapper/issues"
+  },
+  "homepage": "https://github.com/Phoenix181/hacker-news-wrapper#readme"
+}
