@@ -11,14 +11,14 @@ const hackerNews = require('hacker-news-wrapper');
 ## Methods
 
 ### Contents:
-1. [fetchItem(itemId)](docs.md#fetchItem(itemId))
-2. [fetchUser(userNickName)](docs.md#fetchUser(userNickName))
-3. [fetchMaxItem()](docs.md#fetchMaxItem())
-4. [fetchTopStories()](docs.md#fetchTopStories())
-5. [fetchNewStories()](docs.md#fetchNewStories())
-6. [fetchBestStories()](docs.md#fetchBestStories())
-7. [fetchAskStories()](docs.md#fetchAskStories())
-8. [fetchShowStories()](docs.md#fetchShowStories())
+1. [fetchItem(itemId)](docs.md#fetchitemitemid)
+2. [fetchUser(userNickname)](docs.md#fetchuserusernickname)
+3. [fetchMaxItem()](docs.md#fetchmaxitem)
+4. [fetchTopStories()](docs.md#fetchtopstories)
+5. [fetchNewStories()](docs.md#fetchnewstories)
+6. [fetchBestStories()](docs.md#fetchbeststories)
+7. [fetchAskStories()](docs.md#fetchaskstories)
+8. [fetchShowStories()](docs.md#fetchshowstories)
 
 ### fetchItem(itemId)
 
@@ -61,14 +61,14 @@ hackerNews.fetchItem(9002).then(item => {
 }) ();
 ```
 
-### fetchUser(userNickName)
+### fetchUser(userNickname)
 
 The function fetches the information about the user with the specified `userNickName`. The nick name is case-sensitive. 
 Only users with public activity can retrieved.
 
 ##### Parameter:
 
-`userNickName` - The nick name of the user to be returned.
+`userNickname` - The nick name of the user to be returned.
 
 ##### Returns:
 
